@@ -13,7 +13,7 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
       environment:
-      name: dev
+        name: dev
     steps:
       - name: 'Az CLI login'
         uses: azure/login@v1
